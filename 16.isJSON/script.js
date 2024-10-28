@@ -1,12 +1,11 @@
 function isJSON(obj){
-
-
+return obj.isJSOn ? true : false
 }
 
 
 /* ÉNONCÉ 📚 */
 
-/* 
+/*
 Créez un programme qui sert à détecter si l'argument est bien du JSON valide ou non.
 Renvoyez true si ça l'est, false si ça ne l'est pas.
 */
@@ -16,9 +15,3 @@ Renvoyez true si ça l'est, false si ça ne l'est pas.
 
 console.log(isJSON('{"name":"Adam","age":20}')); // true
 console.log(isJSON('{"name":"Adam",age:"20"}')); // false
-
-
-
-
-
-

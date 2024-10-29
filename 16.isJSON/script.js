@@ -1,5 +1,16 @@
 function isJSON(obj){
-return obj.isJSOn ? true : false
+
+  try {
+    throw new Error ("Erreur cool")
+    // JSON.parse(obj);
+    // console.log(JSON.parse(obj));
+
+    // return true;
+  }
+  catch(e) {
+    console.log(e);
+    return false;
+  }
 }
 
 

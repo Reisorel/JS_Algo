@@ -1,7 +1,8 @@
 function getTime() {
-
+  return new Date().toTimeString().slice(0,8)
 };
 
+const getTime2 = () => new Date().toTimeString().slice(0,8)
 
 /* ÉNONCÉ 📚 */
 
@@ -14,7 +15,4 @@ function getTime() {
 /* Tests à passer 🧪 */
 
 console.log(getTime()); // 12:00:00 (par ex)
-
-
-
-
+console.log(getTime2()); // 12:00:00 (par ex)
